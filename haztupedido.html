@@ -1,41 +1,42 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/Estilos.css">
     <title>Pizzería Trouville</title>
 </head>
 <body>
 
 <nav style="text-align:center;" class="topnav" id="myTopnav">
-  <a name="home" href="index.html" tabindex="1"> <img src="img/logosolo.png" alt="home"> </a>
-  <a name="Haz tu pedido!" href="haztupedido.html" tabindex="2">Haz tu Pedido!</a>
-  <a name="Reserva tu mesa!" href="reservatumesa.html"tabindex="3">Reserva tu mesa!</a>
-  <a name="Nosotros" href="nosotros.html" tabindex="4">Nosotros</a>
-  <a name="Contacto" href="contacto.html" tabindex="5">Contacto</a>
-  <a name="Sucursales" href="sucursales.html" tabindex="6">Sucursales</a>
+  <a name="home" href="index.html"> <img src="img/logosolo.png"></a>
+  <a name="Haz tu pedido!" class="hazPedido" href="haztupedido.html">Haz tu Pedido!</a>
+  <a name="Reserva tu mesa!" href="reservatumesa.html">Reserva tu mesa!</a>
+  <a name="Nosotros" href="nosotros.html">Nosotros</a>
+  <a name="Contacto" href="contacto.html">Contacto</a>
+  <a name="Sucursales" href="sucursales.html">Sucursales</a>
 </nav>
 
 <h1 align="center">Haz tu pedido!</h1>
 <h2 align="left">Dirección</h2>
 <form align="left">
-  Barrio: <input type="text" name="barrio" required><br>
-  Calle:  <input type="text" name="calle" required><br>
-  Número: <input type="number" name="numero" required><br>
-  Apto:   <input type="number" name="apto" required><br>
+    <label>Barrio:</label><input type="text" name="barrio" required><br><br>
+    <label>Calle:</label><input type="text" name="calle" required><br><br>
+    <label>Número:</label><input type="number" name="numero" required><br><br>
+    <label>Apto:</label><input type="number" name="apto" required>
 </form>
 
 <h2 align="left">Datos personales</h2>
 <form align="left">
-  Nombre:    <input type="text" name="nombre" required><br>
-  Teléfono:  <input type="tel" name="telefono" required><br>
-  Email:     <input type="email" name="email" required><br>
+    <label>Nombre:</label><input type="text" name="nombre" required><br><br>
+    <label>Teléfono:</label><input type="tel" name="telefono" required><br><br>
+    <label>Email:</label><input type="email" name="email" required>
 </form>
 <h2 align="left">Aclaraciones</h2>
 <form align="left">
   Aclaraciones:<br>
   <textarea rows="4" cols="50">
   </textarea><br><br>
-  ¿Con cuanto va a pagar?:     <input type="text" name="efectivo"><br>
+  <label>¿Con cuanto va a pagar?:</label><input type="text" class="cuantoPaga" name="efectivo"><br>
 </form>
 
 </body>
