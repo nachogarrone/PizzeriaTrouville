@@ -8,7 +8,7 @@ h1 {
     font-size: 30px;
 }
 
-h2{
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: dimgrey;
     font-size: 20px;
@@ -33,22 +33,44 @@ nav.topnav {
     background-color: red;
     text-transform: uppercase;
     text-decoration: solid;
-    color: white;    
+    color: white;
+    margin: -8px;
 }
 
-form{
+form {
     width: 350px;
 }
 
-label{
+.center{
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+}
+
+label {
     width: 60px;
 }
 
-input{
+input {
     width: 250px;
     float: right;
 }
 
 input.cuantoPaga {
     width: 100px;
+}
+
+.container {
+    margin: auto;
+    padding: 10px;
+}
+
+.order {
+    width: 60%;
+    float: left;
+}
+
+.cart {
+    margin-left: 60%;
 }

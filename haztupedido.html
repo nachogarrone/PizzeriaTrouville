@@ -16,27 +16,34 @@
     <a name="Sucursales" href="sucursales.html">Sucursales</a>
 </nav>
 
-<h1 align="center">Haz tu pedido!</h1>
-<h2 align="left">Dirección</h2>
-<form align="left">
-    <label for="barrio">Barrio:</label><input type="text" id="barrio" required><br><br>
-    <label for="calle">Calle:</label><input type="text" id="calle" required><br><br>
-    <label for="numero">Número:</label><input type="number" id="numero" required><br><br>
-    <label for="apto">Apto:</label><input type="number" id="apto" required>
-</form>
 
-<h2 align="left">Datos personales</h2>
-<form align="left">
-    <label for="nombre">Nombre:</label><input type="text" id="nombre" required><br><br>
-    <label for="telefono">Teléfono:</label><input type="tel" id="telefono" required><br><br>
-    <label for="email">Email:</label><input type="email" id="email" required>
-</form>
-<h2 align="left">Aclaraciones</h2>
-<form align="left">
-    <textarea rows="4" cols="50">
-  </textarea><br><br>
-    <label for="efectivo">¿Con cuanto va a pagar?:</label><input type="text" class="cuantoPaga" id="efectivo"><br>
-</form>
+<section class="container">
+    <div class="order">
+        <h1 align="center">Haz tu pedido!</h1>
+        <form align="left">
+            <h2 align="left">Dirección</h2>
+            <label for="barrio">Barrio:</label><input type="text" id="barrio" required><br><br>
+            <label for="calle">Calle:</label><input type="text" id="calle" required><br><br>
+            <label for="numero">Número:</label><input type="number" id="numero" required><br><br>
+            <label for="apto">Apto:</label><input type="number" id="apto" required>
+
+            <h2 align="left">Datos personales</h2>
+            <label for="nombre">Nombre:</label><input type="text" id="nombre" required><br><br>
+            <label for="telefono">Teléfono:</label><input type="tel" id="telefono" required><br><br>
+            <label for="email">Email:</label><input type="email" id="email" required>
+
+            <h2 align="left">Aclaraciones</h2>
+            <textarea rows="4" cols="50"></textarea>
+            <br><br>
+            <label for="efectivo">¿Con cuanto va a pagar?:</label><input type="text" class="cuantoPaga" id="efectivo"><br>
+        </form>
+    </div>
+
+    <div class="cart">
+        <h2 align="center">Mi Pedido</h2>
+        <h3 align="left">Compras</h3>
+    </div>
+</section>
 
 </body>
 </html>
