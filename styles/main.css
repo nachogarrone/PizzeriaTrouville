@@ -28,6 +28,11 @@ a.hazPedido {
     border-width: thick;
 }
 
+.logo {
+    height: 50px;
+    float: left;
+}
+
 nav.topnav {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     background-color: red;
@@ -35,6 +40,7 @@ nav.topnav {
     text-decoration: solid;
     text-align: center;
     color: white;
+    height: 60px;
     margin: -8px;
     padding: 10px;
 }

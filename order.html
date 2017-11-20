@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/order.css">
     <title>Pizzería Trouville</title>
 </head>
 <body>
 
 <nav class="topnav" id="myTopnav">
-    <a name="home" href="index.html"> <img src="img/logosolo.png"></a>
+    <a name="home" href="index.html"><img class="logo" src="img/logo.png"></a>
     <a name="Haz tu pedido!" href="haztupedido.html">Haz tu Pedido!</a>
     <a name="Reserva tu mesa!" href="reservatumesa.html">Reserva tu mesa!</a>
     <a name="Nosotros" href="nosotros.html">Nosotros</a>
@@ -19,24 +20,52 @@
 
 <section class="container">
     <div class="order">
-        <h1 align="center">Haz tu pedido!</h1>
-        <form align="left">
-            <h2 align="left">Dirección</h2>
-            <label for="barrio">Barrio:</label><input type="text" id="barrio" required><br><br>
-            <label for="calle">Calle:</label><input type="text" id="calle" required><br><br>
-            <label for="numero">Número:</label><input type="number" id="numero" required><br><br>
-            <label for="apto">Apto:</label><input type="number" id="apto" required>
+        <h1>Seleccioná tu comida</h1>
 
-            <h2 align="left">Datos personales</h2>
-            <label for="nombre">Nombre:</label><input type="text" id="nombre" required><br><br>
-            <label for="telefono">Teléfono:</label><input type="tel" id="telefono" required><br><br>
-            <label for="email">Email:</label><input type="email" id="email" required>
+        <div class="items" id="favorite-items">
+            <h2>Lo más pedido</h2>
+            <hr class="small-hr">
+            <div class="column">
+                <img class="item" src="img/muzza.jpg" alt="muzzarella">
+                <h4>Muzzarella</h4>
+                <small>Clásica muzzarella, bien doradita. La más pedida!</small>
+                <hr class="small-hr">
+                <strong class="inline">$60</strong>
+                <strong class="inline right"><a href="haztupedido.html">+</a></strong>
+            </div>
 
-            <h2 align="left">Aclaraciones</h2>
-            <textarea rows="4" cols="50"></textarea>
-            <br><br>
-            <label for="efectivo">¿Con cuanto va a pagar?:</label><input type="text" class="cuantoPaga" id="efectivo"><br>
-        </form>
+            <div class="column">
+                <img class="item" src="img/faina.jpg" alt="faina">
+                <h4>Faina</h4>
+                <small>Delicioso fainá! Especialidad de la casa.</small>
+                <hr class="small-hr">
+                <strong class="inline">$50</strong>
+                <strong class="inline right"><a href="haztupedido.html">+</a></strong>
+            </div>
+
+            <div class="column">
+                <img class="item" src="img/original.png" alt="sorpresa">
+                <h4>Sorpresa</h4>
+                <small>Pizza con hasta 5 originales sabores del día!</small>
+                <hr class="small-hr">
+                <strong class="inline">$90</strong>
+                <strong class="inline right"><a href="haztupedido.html">+</a></strong>
+            </div>
+        </div>
+
+        <div class="items space" id="chivite-items">
+            <h2>Chivitería</h2>
+            <hr class="small-hr">
+            <div class="column">
+                <img class="item" src="img/chivito.jpg" alt="chivito">
+                <h4>Chivito canadiense</h4>
+                <small>Mejor chivito de la ciudad!</small>
+                <hr class="small-hr">
+                <strong class="inline">$320</strong>
+                <strong class="inline right"><a href="haztupedido.html">+</a></strong>
+            </div>
+        </div>
+
     </div>
 
     <div class="cart">
