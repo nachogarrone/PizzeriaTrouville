@@ -95,3 +95,27 @@ div.nosotros {
 img.nosotros {
     float: left;
 }
+
+section.home {
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    align-content: center;
+    padding: 10px;
+    background-image: url('../img/banner-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 810px;
+}
+
+
+div.home{
+    text-align:center;
+    margin-top: 10%;
+}
+
+select.sucursales-home{
+    height: 49px;
+    width: 150px;
+}
