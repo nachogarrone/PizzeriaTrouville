@@ -18,9 +18,8 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: dimgrey;
     font-size: 15px;
-    font-weight: 400; 
+    font-weight: 400;
 }
-
 
 a {
     color: inherit;
@@ -105,20 +104,20 @@ input.cuantoPaga {
 }
 
 .inline {
-    display:inline;
+    display: inline;
 }
 
-.checkout-hr{
-    width: 80%; 
+.checkout-hr {
+    width: 80%;
     margin-top: 55%;
 }
 
-.checkout-float-r{
+.checkout-float-r {
     float: right;
     margin-right: 22px;
 }
 
-.checkout-float-l{
+.checkout-float-l {
     float: left;
     margin-left: 22px;
 }
@@ -143,3 +142,4 @@ div.nosotros {
 
 img.nosotros {
     float: left;
+}
