@@ -88,6 +88,7 @@ input.cuantoPaga {
 .container {
     margin: auto;
     padding: 10px;
+    margin-left: 10%;
 }
 
 .order {
@@ -166,4 +167,16 @@ div.home{
 select.sucursales-home{
     height: 49px;
     width: 150px;
+}
+
+.checkout-margin-top{
+    margin-top: 35px;
+}
+
+.checkout-margin-bottom{
+    margin-bottom: 15px;
+}
+
+.checkout-margin-bottom-f{
+    margin-bottom: 150px;
 }
