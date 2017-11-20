@@ -43,7 +43,7 @@ form {
     width: 350px;
 }
 
-.center{
+.center {
     margin: auto;
     width: 20%;
     padding: 10px;
@@ -85,4 +85,13 @@ input.cuantoPaga {
 
 .cart {
     margin-left: 60%;
+}
+
+div.nosotros {
+    width: 40%;
+    float: left;
+}
+
+img.nosotros {
+    float: left;
 }
