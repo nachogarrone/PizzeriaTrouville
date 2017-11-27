@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<nav style="text-align:center;" class="topnav" id="myTopnav">
+<nav class="topnav" id="myTopnav">
     <a name="home" href="index.html"> <img class="logo" src="img/logo.png"></a>
     <a name="Haz tu pedido!" href="haztupedido.html">Haz tu Pedido!</a>
     <a name="Reserva tu mesa!" href="reservatumesa.html">Reserva tu mesa!</a>
@@ -15,5 +15,52 @@
     <a name="Contacto" href="contacto.html">Contacto</a>
     <a name="Sucursales" href="sucursales.html">Sucursales</a>
 </nav>
+
+<section class="container">
+    <div class="order">
+        <h1 align="center">Reserva tu mesa aquí!</h1>
+        <form align="left">
+            <label for="personas">Personas:</label><input type="number" id="personas" value="3" min="1" max="5" required><br><br>
+            <label for="fecha">Fecha:</label><input type="date" id="fecha" required><br><br>
+            <label for="hora">Hora:</label>
+            <select id="hora">
+                <option value="12:00">12:00</option>
+                <option value="12:30">12:30</option>
+                <option value="13:00">13:00</option>
+                <option value="13:30">13:30</option>
+                <option value="14:00">14:00</option>
+                <option value="14:30">14:30</option>
+                <option value="15:00">15:00</option>
+                <option value="15:30">15:30</option>
+                <option value="16:00">16:00</option>
+                <option value="16:30">16:30</option>
+                <option value="17:00">17:00</option>
+                <option value="17:30">17:30</option>
+                <option value="18:00">18:00</option>
+                <option value="18:30">18:30</option>
+                <option value="19:00">19:00</option>
+                <option value="19:30">19:30</option>
+                <option value="20:00">20:00</option>
+                <option value="20:30">20:30</option>
+                <option value="21:00">21:00</option>
+                <option value="21:30">21:30</option>
+                <option value="22:00">22:00</option>
+                <option value="22:30">22:30</option>
+                <option value="23:00">23:00</option>
+                <option value="23:30">23:30</option>
+            </select><br><br>
+            <label for="sucursales">Local:</label>
+            <select class="sucursales-home" id="sucursales">
+                <option value="punta-carretas">Punta Carretas</option>
+                <option value="cordon">Cordón</option>
+            </select><br><br>
+            <label for="nombre">Nombre:</label><input type="text" id="nombre" required><br><br>
+            <label for="telefono">Teléfono:</label><input type="tel" id="telefono" required><br><br>
+            <label for="email">Email:</label><input type="email" id="email" required> <br><br>
+            <button type="submit" class="button" formaction="reservaexito.html">Reservar!</button>
+        </form>
+    </div>
+
+</section>
 </body>
 </html>
