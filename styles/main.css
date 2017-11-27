@@ -57,7 +57,7 @@ form {
 
 .center {
     margin: auto;
-    width: 20%;
+    width: 30%;
     padding: 10px;
 }
 
@@ -115,11 +115,13 @@ input.cuantoPaga {
 
 .checkout-float-r {
     float: right;
+    font-size: medium;
     margin-right: 22px;
 }
 
 .checkout-float-l {
     float: left;
+    font-size: medium;
     margin-left: 22px;
 }
 
