@@ -49,3 +49,7 @@
 .margin-top-orders {
     margin-top: 35px;
 }
+
+.small-text {
+    font-size: smaller;
+}
