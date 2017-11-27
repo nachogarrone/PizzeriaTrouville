@@ -1,0 +1,51 @@
+.container {
+    margin: auto;
+    padding: 10px;
+}
+
+.order {
+    width: 60%;
+    float: left;
+}
+
+.cart {
+    margin-left: 60%;
+}
+
+.items {
+    margin: 0 auto;
+    width: 90%
+}
+
+.space {
+    margin-top: 20px;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+}
+
+.column {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    width: 30%;
+}
+
+.inline {
+    display: inline;
+}
+
+.right {
+    margin-right: 10%;
+    float: right;
+}
+
+.small-hr {
+    width: 100%;
+}
+
+.margin-top-orders {
+    margin-top: 35px;
+}

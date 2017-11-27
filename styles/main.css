@@ -1,0 +1,182 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgrey;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgrey;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+a.hazPedido {
+    border: solid;
+    border-color: white;
+    border-width: thick;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+}
+
+nav.topnav {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: red;
+    text-transform: uppercase;
+    text-decoration: solid;
+    text-align: center;
+    color: white;
+    height: 60px;
+    margin: -8px;
+    padding: 10px;
+}
+
+form {
+    width: 350px;
+}
+
+.center {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+label {
+    width: 60px;
+}
+
+input {
+    width: 250px;
+    float: right;
+}
+
+input.cuantoPaga {
+    width: 100px;
+}
+
+.container {
+    margin: auto;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.order {
+    width: 60%;
+    float: left;
+}
+
+.cart {
+    margin-left: 60%;
+    border: 2px solid dimgrey;
+    height: 400px;
+    width: 348px;
+    margin-top: 100px;
+}
+
+.inline {
+    display: inline;
+}
+
+.checkout-hr {
+    width: 80%;
+    margin-top: 55%;
+}
+
+.checkout-float-r {
+    float: right;
+    margin-right: 22px;
+}
+
+.checkout-float-l {
+    float: left;
+    margin-left: 22px;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 7px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10% 17%;
+    cursor: pointer;
+}
+
+div.nosotros {
+    width: 40%;
+    float: left;
+}
+
+img.nosotros {
+    float: left;
+}
+
+section.home {
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    align-content: center;
+    padding: 10px;
+    background-image: url('../img/banner-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 810px;
+}
+
+
+div.home{
+    text-align:center;
+    margin-top: 10%;
+}
+
+select.sucursales-home{
+    height: 49px;
+    width: 150px;
+}
+
+.checkout-margin-top{
+    margin-top: 35px;
+}
+
+.checkout-margin-bottom{
+    margin-bottom: 15px;
+}
+
+.checkout-margin-bottom-f{
+    margin-bottom: 150px;
+}
