@@ -35,7 +35,8 @@ a.hazPedido {
 }
 
 .logo {
-    height: 50px;
+    height: 65px;
+    width: 240px;
     float: left;
 }
 
@@ -57,10 +58,14 @@ form {
 
 .center {
     margin: auto;
-    width: 30%;
+    width: 38%;
     padding: 10px;
 }
-
+.center2 {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+}
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
